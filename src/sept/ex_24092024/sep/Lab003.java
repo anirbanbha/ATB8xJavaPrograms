@@ -23,14 +23,14 @@ choice - 2 - f → c, f → c
         switch (_CaseID) {
             case 1:
                 System.out.println("Please Enter the value in KMs for conversion to Metre: ");
-                Float v_KMS = myObj.nextFloat();
-                Float v_metre = v_KMS *1000;
+                float v_KMS = myObj.nextFloat();
+                float v_metre = v_KMS *1000;
 
 
                 System.out.println("The conversion value in metre is " + v_metre + " for KMs provided "+ v_KMS);
                 break;
             case 2:
-                System.out.println("Please Enter the value in Fahrenheit for conversion to Celsius: " );
+                System.out.println("Please Enter the value in Fahrenheit for conversion tso Celsius: " );
                 double v_faren = myObj.nextDouble();
                 double Celsius  =  (v_faren - 32) * 5/9;
 

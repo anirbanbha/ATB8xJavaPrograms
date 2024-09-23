@@ -12,7 +12,7 @@ public class Lab001 {
             Inputs :   num 1, num 2, +
             Output :  num1+num2 → print information.
          */
-        Float num = 0.00F;
+        float num = 0.00F;
         Scanner myObj = new Scanner(System.in);
         //System.out.println("Enter numb1, num2 for Mathetical operations:");
         //System.out.println("For addition Type Add, for substraction type Sub," +
