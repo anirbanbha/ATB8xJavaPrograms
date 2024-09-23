@@ -1,4 +1,4 @@
-package sept.ex_04092024;
+package sept.ex_24092024.sep;
 
 import java.util.Scanner;
 
